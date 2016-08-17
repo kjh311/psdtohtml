@@ -1,0 +1,35 @@
+body{
+
+}
+#main{
+  width: 100%;
+}
+#topHeader{
+  background-color: black;
+  min-height: 40px;
+}
+#bottomHeader{
+  height: 80px;
+  background-color: white;
+}
+#green{
+  background-color: #4ca368;
+  height: 870px;
+}
+#community{
+  background-color: #ececec;
+  height: 660px;
+}
+#servicePackage{
+  background-color: #ffffff;
+  height: 770px;
+}
+#dataIntegration{
+  background-color: #f5f5f5;
+  height: 1020px;
+}
+#footer{
+  background-color: #efefef;
+  height: 460px;
+}
+
