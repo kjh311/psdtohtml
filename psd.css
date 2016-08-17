@@ -1,5 +1,5 @@
-body{
-
+.container-fluid{
+  padding: 0px;
 }
 #main{
   width: 100%;
@@ -7,10 +7,52 @@ body{
 #topHeader{
   background-color: black;
   min-height: 40px;
+  /*text-align: center;*/
+}
+#social{
+  left: 10%;
+  position: relative;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#contact{
+  right: 10%;
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
 }
 #bottomHeader{
   height: 80px;
   background-color: white;
+}
+.headerLink{
+  margin-top: 25px;
+}
+#carftLance{
+  left:10%;
+  position: relative;
+  margin-top: 25px;
+}
+#products{
+  position: relative;
+  float: right;
+  right: 41%;
+}
+#solutions{
+  position: relative;
+  float: right;
+  right: 26%;
+}
+#support{
+  position: relative;
+  float: right;
+  right: 12%;
+}
+#signIn{
+  position: absolute;
+  right: 10%;
+  margin-top: 23px;
 }
 #green{
   background-color: #4ca368;
@@ -31,5 +73,13 @@ body{
 #footer{
   background-color: #efefef;
   height: 460px;
+}
+#greyBar{
+  width: 100%;
+  background-color: #e1e2e3;
+  height: 2px;
+  position: absolute;
+  bottom: 125px;
+  left: 0px;
 }
 
