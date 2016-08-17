@@ -1,3 +1,7 @@
+body{
+  font-size: 16px;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .container-fluid{
   padding: 0px;
 }
@@ -7,7 +11,6 @@
 #topHeader{
   background-color: black;
   min-height: 40px;
-  /*text-align: center;*/
 }
 #social{
   left: 10%;
@@ -57,6 +60,23 @@
 #green{
   background-color: #4ca368;
   height: 870px;
+  text-align: center;
+}
+#bigData{
+  position: relative;
+  top: 108px;
+}
+#blueLance{
+  position: relative;
+  top: 175px;
+}
+#screen{
+  position: relative;
+  top: 250px;
+}
+#finePrint{
+  position: relative;
+  top: 0px;
 }
 #community{
   background-color: #ececec;
