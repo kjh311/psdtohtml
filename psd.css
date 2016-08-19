@@ -178,6 +178,7 @@ body{
 #footer{
   background-color: #efefef;
   height: 460px;
+  text-align: center;
 }
 #greyBar{
   width: 100%;
