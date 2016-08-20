@@ -12,17 +12,20 @@ body{
   background-color: black;
   min-height: 40px;
 }
-#social{
+#header-links{
+  float: right;
+  right: 10%;
+}
+#social-links{
   left: 10%;
   position: relative;
-  margin-top: 10px;
   cursor: pointer;
 }
-#contact{
+#contact-info{
   right: 10%;
   position: relative;
   float: right;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   cursor: pointer;
 }
 #bottomHeader{
@@ -37,26 +40,20 @@ body{
   position: relative;
   margin-top: 25px;
 }
-#products{
+#header-links{
   position: relative;
   float: right;
-  right: 41%;
-}
-#solutions{
-  position: relative;
-  float: right;
-  right: 26%;
-}
-#support{
-  position: relative;
-  float: right;
-  right: 12%;
-}
-#signIn{
-  position: absolute;
   right: 10%;
-  margin-top: 23px;
 }
+.header-links{
+  display: inline;
+  /*float: right;*/
+  /*position: relative;*/
+  /*right: 100px;*/
+
+  margin-top: 20px;
+}
+
 #green{
   background-color: #4ca368;
   height: 870px;
