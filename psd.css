@@ -165,9 +165,6 @@ body{
   position: absolute;
   margin-left: -12px;
 }
-#purchaseButton1, #purchaseButton2, #purchaseButton3{
-
-}
 #purchase-wrapper{
   position: relative;
   top: 389px;
@@ -225,6 +222,13 @@ body{
     position: absolute;
     margin-left: 13px;
   }
+
+}
+
+@media (max-width: 500px){
+  #sign-in{
+    position: absolute;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -253,6 +257,23 @@ body{
   #business-or-community-button{
     position: absolute;
     margin-left: 305px;
+  }
+  #community-edition, #or, #business-edition{
+    position: absolute;
+  }
+  #community-edition{
+    margin-left: 146px;
+    margin-top: -8px;
+    width: 140px;
+  }
+  #or{
+    margin-left: 135px;
+    z-index: 200;
+  }
+  #business-edition{
+    width: 145px;
+    margin-left: 5px;
+    margin-top: -8px;
   }
 }
 
