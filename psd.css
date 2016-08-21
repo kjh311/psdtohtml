@@ -47,13 +47,8 @@ body{
 }
 .header-links{
   display: inline;
-  /*float: right;*/
-  /*position: relative;*/
-  /*right: 100px;*/
-
   margin-top: 20px;
 }
-
 #green{
   background-color: #4ca368;
   height: 870px;
@@ -78,9 +73,33 @@ body{
 #email-form{
   margin-left: -270px;
 }
+#email-form2{
+  margin-top: -281px;
+  position: relative;
+  left: -587px;
+}
+#emailInput2{
+  width: 280px;
+  height: 45px;
+}
+#submitButton2{
+  margin-left: 275px;
+  margin-top: -20px;
+  cursor: pointer;
+}
+#bottom-links{
+  position: absolute;
+  width: 670px;
+  height: 190px;
+  margin-left: -130px;
+  margin-top: -90px;
+}
 #emailInput, #submitButton{
   position: absolute;
   bottom: 100px;
+}
+#emailInput2, #submitButton2{
+  position: absolute;
 }
 #emailInput{
   background-color: white;
