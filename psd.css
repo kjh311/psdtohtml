@@ -209,7 +209,7 @@ body{
 }
 
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
   #contact-info{
     float: left;
     position: absolute;
@@ -224,7 +224,7 @@ body{
     margin-left: 13px;
   }
 
-}
+}*/
 
 @media (max-width: 500px){
   #sign-in{
@@ -232,19 +232,19 @@ body{
   }
 }
 
-@media (max-width: 1000px) {
+/*@media (max-width: 1000px) {
   #email-form{
     position: absolute;
     left: 635px;
     margin-top: 18px;
   }
-}
+}*/
 
 @media (max-width: 930px) {
   #purchase-wrapper{
     position: absolute;
     margin-top: 204px;
-    margin-left: 70px;
+    margin-left: 221px;
   }
   .purchase-button{
     position: absolute;
@@ -257,24 +257,23 @@ body{
   }
   #business-or-community-button{
     position: absolute;
-    margin-left: 305px;
+    margin-left: 457px;
   }
   #community-edition, #or, #business-edition{
     position: absolute;
   }
   #community-edition{
-    margin-left: 146px;
+    margin-left: 147px;
     margin-top: -8px;
     width: 140px;
   }
-
   #or{
     margin-left: 135px;
     z-index: 200;
   }
   #business-edition{
     width: 145px;
-    margin-left: 5px;
+    margin-left: -1px;
     margin-top: -8px;
   }
 }
